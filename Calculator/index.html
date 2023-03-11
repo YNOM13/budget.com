@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFRP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+		<div class="container">
+			
+
+		<div class="input">
+            <div class="input-con">
+                <span id="input-back" class="back-figures"></span>
+                <span id="input-current" class="current-figures"></span>
+            </div>
+        </div>
+
+        <div class="buttons-figures">
+            <button onclick="clearAll()" class="button ac button_bg_red">ac</button>
+            <button onclick="deletelastfigure()" class="button button_bg_red">del</button>
+            <button onclick="signs ('/')" class="button">&divide;</button>
+        </div>
+
+        <div class="buttons-figures">
+            <button onclick="pressbtn ('7')" class="button">7</button>
+            <button onclick="pressbtn ('8')" class="button">8</button>
+            <button onclick="pressbtn ('9')" class="button">9</button>
+            <button onclick="signs ('*')" class="button">&times;</button>
+        </div>
+        <div class="buttons-figures">
+            <button onclick="pressbtn ('4')" class="button">4</button>
+            <button onclick="pressbtn ('5')" class="button">5</button>
+            <button onclick="pressbtn ('6')" class="button">6</button>
+            <button onclick="signs ('+')" class="button">+</button>
+        </div>
+        <div class="buttons-figures">
+            <button onclick="pressbtn ('1')" class="button">1</button>
+            <button onclick="pressbtn ('2')" class="button">2</button>
+            <button onclick="pressbtn ('3')" class="button">3</button>
+            <button onclick="signs ('-')" class="button">-</button>
+        </div>
+        <div class="buttons-figures">
+            <button onclick="pressbtn ('.')" class="button">.</button>
+            <button onclick="pressbtn ('0')" class="button">0</button>
+            <button onclick="pressbtnequal()" class="button equal">=</button>
+        </div>
+        
+		</div>
+	</div>
+
+<script src="./css/Source/js/main.js" type="text/javascript"> </script>
+
+</body>
+</html>
